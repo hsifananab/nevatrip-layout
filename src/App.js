@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Card from './components/Card';
 
-function App() {
+import { tripItems } from './data/data';
+
+const banner1 = {
+  bgColor: 'violet',
+  top: true,
+  label: 'новинка',
+};
+
+const banner2 = {
+  bgColor: 'blue',
+  label: 'новинка',
+};
+
+const banner3 = {
+  label: 'круглый год',
+};
+
+const banner4 = {
+  visible: false,
+};
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col items-center justify-center ">
+      <Card item={tripItems[0]} />
+      <Card item={tripItems[1]} bannerSettings={banner1} />
+      <Card item={tripItems[2]} bannerSettings={banner2} />
+      <Card item={tripItems[3]} bannerSettings={banner3} />
+      <Card item={tripItems[4]} bannerSettings={banner4} />
     </div>
   );
-}
+};
 
 export default App;
