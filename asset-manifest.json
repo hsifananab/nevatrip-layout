@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nevatrip-layout/static/css/main.1c5bdae0.css",
+    "main.js": "/nevatrip-layout/static/js/main.8da9c22e.js",
+    "static/media/ekskursii-po-spb-na-avtobuse.jpg": "/nevatrip-layout/static/media/ekskursii-po-spb-na-avtobuse.e114f039c33b784985a0.jpg",
+    "static/media/AdobeStock_168443825.jpg": "/nevatrip-layout/static/media/AdobeStock_168443825.c0122a6bb375136da0b9.jpg",
+    "static/media/music.jpg": "/nevatrip-layout/static/media/music.e73462a73b9096b398d5.jpg",
+    "static/media/sankt-peterburg-piter-st-3495-1.jpg": "/nevatrip-layout/static/media/sankt-peterburg-piter-st-3495-1.a811bf10d6d9847ba510.jpg",
+    "static/media/sankt-peterburg-piter-st-3495.jpg": "/nevatrip-layout/static/media/sankt-peterburg-piter-st-3495.4a1067b5c212b6c8128e.jpg",
+    "index.html": "/nevatrip-layout/index.html",
+    "main.1c5bdae0.css.map": "/nevatrip-layout/static/css/main.1c5bdae0.css.map",
+    "main.8da9c22e.js.map": "/nevatrip-layout/static/js/main.8da9c22e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c5bdae0.css",
+    "static/js/main.8da9c22e.js"
+  ]
+}
